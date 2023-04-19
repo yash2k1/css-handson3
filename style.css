@@ -1,0 +1,203 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+background-color: gray;
+}
+.upperContainer{
+    height: 175px;
+   display: flex;
+   justify-content: center;
+   align-items: flex-end;
+}
+.box {
+  background: white;
+  border: 8px solid red;
+  color:red;
+  width: 250px;
+  height: 250px;
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px purple;
+}
+.upperText{
+    background: white;
+    border-radius: 20px;
+  box-shadow: 5px 5px 5px purple;
+    border: 8px solid red;  
+    font-style: italic;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 28px;
+    font-family: serif;
+font-weight: bold;
+    height: 150px;
+    width: 400px;
+    position: relative;
+    bottom: 0px;
+    display: flex;
+    flex-flow: wrap column;
+    justify-content: space-evenly;
+    color:red;
+}
+
+hr{
+    margin: 3px;
+}
+.middleContainer{
+    border: 10px solid green;
+    height: 680px;
+    width: 96vw;
+    margin: auto;
+}
+
+.card1{
+float: left;
+}
+.card2{
+    display: flex;
+   justify-content: center;
+   align-items: center;
+float: right;
+margin-right: 70px;
+}
+.card2 img{
+   width: 200px; 
+   height: 150px;
+}
+.card3{
+    float: left;
+clear: left;
+margin-top:100px ;
+
+}
+.card4{
+    float: right;
+margin-right: 70px;
+margin-top:120px ;
+
+}
+.box p{
+    color: black;
+    text-shadow:0 0 4px red;
+    font-weight: bold;
+    font-size: 22px;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 40px;
+}
+.card3 p{
+margin-bottom: 10px;
+}
+.card3 span{
+display: block;
+line-height: 28px;
+text-align: left;
+}
+.card4 p{
+    margin-top: 20px;
+    line-height: 0px;
+}
+.card4 form{
+    display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+.card4 label{
+ color: black;
+ text-shadow:0 0 2px red;
+   display: block;
+   text-align: center;
+   margin-top: 25px;
+}
+#rate{
+    text-align: center;
+    width: 120px;
+}
+#submitBtn{
+border-radius: 10px;
+background: red;
+width: 80px;
+}
+
+.lowerContainer{
+    background: green;
+    border:7px solid purple;
+    width: 900px;
+    margin: auto;
+    margin-top: 20px;
+height: 700px;
+position: relative;
+}
+.lowerHeader{
+    margin:15px 12px 35px 350px ;
+}
+.lowerBox{
+    background: rgb(240, 240, 101);
+    width: 445px;
+    height: 300px;
+}
+.lowerBox h2{
+    margin: 35px 0px 20px 165px;    ;
+}
+.lowerBox3 h2{
+    margin-left: 400px;
+}
+.lowerBox1{
+    float: left;
+}
+.lowerBox2{
+    float: right;
+}
+.lowerBox3{
+    position: absolute;
+    top: 390px;
+    width: 910px;
+    float: left;
+}
+.lowerBox h2,.lowerBox p, .lowerBox span{
+    font-family: serif;
+    font-style: italic;
+    font-weight: bold;
+}
+.lowerBox span{
+    text-transform: uppercase;
+    text-align: center;
+    display: block;
+    line-height: 40px;
+}
+.span{
+    line-height: -0px;
+}
+.discount{
+    height: 80px;
+    width: 500px;
+    background: lawngreen;
+    position: fixed;
+    bottom: 50px;
+    left:50%;
+    transform: translate(-50%);
+}
+.offer1{
+font-size: 28px;
+font-weight: bold;
+display: flex;
+flex-direction: column;
+align-items: center;
+float: left;
+margin: 16px 0px 0px 40px;
+
+}
+.offer2{
+font-weight: bold;
+display: flex;
+flex-direction: column;
+align-items: center;
+float: right;
+margin: 16px 15px 0px 40px;
+}
+.discount span{
+    font-style: italic;
+}
